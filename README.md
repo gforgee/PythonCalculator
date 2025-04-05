@@ -5,9 +5,17 @@ Cli - PythonCalculator. Written as a first ever project, using python classes. M
 
 ## Features
 - Basic arithmetic operations: addition, subtraction, multiplication, and division
-- Support for advanced mathematical functions
 - User-friendly command-line interface
 - Extensible and easy to modify
+
+## Why calculator?
+I dont know
+
+## 
+Example usage 
+```bash
+2 + 3 ( 4 * 5) * sqrt(5)
+```
 
 ## Installation
 To install PythonCalculator, follow these steps:
