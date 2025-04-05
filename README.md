@@ -30,20 +30,7 @@ To use PythonCalculator, run the following command:
 python calculator.py
 ```
 
-## Contributing
-We welcome contributions to improve PythonCalculator. To contribute, follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Create a pull request to the main repository.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgements
 We would like to thank all the contributors who have helped improve this project.
 
----
-
-Feel free to customize this template according to your needs. If you need specific sections or additional details, let me know!
