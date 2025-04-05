@@ -43,5 +43,5 @@ python calculator.py
 
 
 ## Acknowledgements
-We would like to thank all the contributors who have helped improve this project.
+I would like to thank all the contributors who want to improve this project.
 
