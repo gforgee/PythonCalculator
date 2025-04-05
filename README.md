@@ -7,15 +7,18 @@ Cli - PythonCalculator. Written as a first ever project, using python classes. M
 - Basic arithmetic operations: addition, subtraction, multiplication, and division
 - User-friendly command-line interface
 - Extensible and easy to modify
+- To use square root write sqrt(-number-)
+- To use exponents, enter the ^ symbol.
 
 ## Why calculator?
 I dont know
 
-## 
-Example usage 
+## Example usage 
 ```bash
-2 + 3 ( 4 * 5) * sqrt(5)
+Write an expression: 2 + 3 ( 4 * 5) * sqrt(5)
+47.721359549995796
 ```
+
 
 ## Installation
 To install PythonCalculator, follow these steps:

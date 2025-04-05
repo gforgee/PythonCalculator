@@ -20,7 +20,7 @@ class Tokenizer:
                 tokens.append('s')
             
             else:
-                raise ValueError(f"Nieznany znak: '{char}'")
+                raise ValueError(f"Unknown char: '{char}'")
               
 
 
@@ -50,7 +50,7 @@ class RPNConventer:
         elif op == 's':
             return 3
         else:
-            raise ValueError(f"Nieznany znak '{op}'")
+            raise ValueError(f"Unknown operator '{op}'")
 
     def convert(self):
         stack = []
@@ -71,12 +71,12 @@ class RPNConventer:
                 if stack and stack[-1] == '(':
                     stack.pop()
                 else:
-                    raise ValueError(f"Brakujacy nawias otwieracjacy")
+                    raise ValueError(f"Missing parenthesis")
             else:
-                raise ValueError(f"Nieznany znak: {char}")
+                raise ValueError(f"Unknown char: {char}")
         while stack:
             if stack[-1] == '(':
-                raise ValueError("Niewlasciwe nawiasy")
+                raise ValueError("Incorrect usage of parenthesis")
             self.output.append(stack.pop())
 
 class ExpressionProcess:
@@ -95,7 +95,7 @@ class ExpressionProcess:
         
         
 if __name__ == "__main__":
-    print('Szybki test')
+    print('Quick test')
     expr = "3 + 4 + 0.5    * 2 / (sqrt(5))(2)"
     print(expr)
     tokenizer = Tokenizer(expr)
@@ -103,10 +103,10 @@ if __name__ == "__main__":
     tokens = tokenizer.get_info() 
     converter = RPNConventer(tokens)
     converter.convert()
-    print("Tokeny wejściowe:", tokens)
-    print("Wyjście RPN:", converter.output)
+    print("Input Tokens:", tokens)
+    print("Output of RPN:", converter.output)
     #test Expression
     process = ExpressionProcess(expr)
-    print('Wynik testu:',process.get_result())
+    print('Test results:',process.get_result())
 
 

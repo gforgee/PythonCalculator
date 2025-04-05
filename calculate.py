@@ -1,4 +1,4 @@
-from math import sqrt, pow
+from math import pow
 class Calculate:
     def __init__(self, rpn_tokens: list[str]):
         self.rpn_tokens = rpn_tokens
@@ -43,7 +43,7 @@ class Calculate:
         
     def get_result(self):
         if not self.stack:
-            return "Brak wyniku"
+            return "No result"
         
         result = self.stack[-1]
         return int(result) if result.is_integer() else result
