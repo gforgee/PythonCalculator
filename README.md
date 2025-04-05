@@ -1,5 +1,7 @@
 My first ever project in python
 
-Python Calculator 
+BasicPython Calculator 
 
-Written with classes.
+Written with classes,
+
+Theres some things to do.
